@@ -21,8 +21,8 @@ fun <T: Comparable<T>> bubbleSort(array: Array<T>){
 
 }
 
-var list1 = arrayOf(5, 4, 3, 2, 1, 0)
-var list2 = arrayOf(7, 100, 0, 1, 2, 5, -5, -89)
+private var list1 = arrayOf(5, 4, 3, 2, 1, 0)
+private var list2 = arrayOf(7, 100, 0, 1, 2, 5, -5, -89)
 
 fun main(){
     bubbleSort(list1)
